@@ -517,12 +517,22 @@ button {
 } 
 
 .footer-container{
+}
+
+.container-logo-p{
         display: flex;
         gap: 120px;
         align-items: baseline;
         margin-right: 120px;
 }
 
+.container-soc{
+        display: flex;
+        gap: 120px;
+        align-items: baseline;
+        margin-right: 120px;
+
+}
 .footer-title {
         color: #FFF;
         font-size: 16px;
@@ -540,7 +550,7 @@ button {
 .footer-item {
         width: 40px;
         height: 40px;
-        transition: background-color 250ms, cubic-bezier(0.4, 0, 0.2, 1);
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-link {
