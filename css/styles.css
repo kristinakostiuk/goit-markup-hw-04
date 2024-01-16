@@ -116,7 +116,7 @@ button {
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
-.active::after {
+.active-studio:after {
         content: "";
         display: block;
         border-bottom: 2px solid ;
