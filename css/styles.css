@@ -516,10 +516,6 @@ button {
         display: inline-block;
 } 
 
-.footer-container{
-        display: flex;
-        align-items: baseline;
-}
 
 .container-logo-p{
         gap: 120px;
