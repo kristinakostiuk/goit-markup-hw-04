@@ -517,19 +517,17 @@ button {
 } 
 
 .footer-container{
+        display: flex;
+        align-items: baseline;
 }
 
 .container-logo-p{
-        display: flex;
         gap: 120px;
-        align-items: baseline;
         margin-right: 120px;
 }
 
 .container-soc{
-        display: flex;
         gap: 120px;
-        align-items: baseline;
         margin-right: 120px;
 
 }
@@ -550,7 +548,6 @@ button {
 .footer-item {
         width: 40px;
         height: 40px;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-link {
@@ -561,7 +558,7 @@ button {
         height: 100%;
         border-radius: 50%;
         background-color: #4D5AE5;
-        transition-duration: 250ms, cubic-bezier(0.4, 0, 0.2, 1);
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-footer{
