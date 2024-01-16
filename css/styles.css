@@ -516,14 +516,17 @@ button {
         display: inline-block;
 } 
 
+.footer-container{
+        display: flex;
+        align-items: baseline;
+        margin-right: 120px;
+}
 
 .container-logo-p{
-        gap: 120px;
         margin-right: 120px;
 }
 
 .container-soc{
-        gap: 120px;
         margin-right: 120px;
 
 }
